@@ -1,4 +1,6 @@
 class HW9Brennan {
+  
+  //Imitating a traditional for loop using call by name
   def forLoop(i: Int, f: Int=>Boolean, t: Int=>Int) (x: => Unit): Unit ={
     if(f(i)){
       x
